@@ -1,0 +1,28 @@
+{
+    "models": {
+        "SRCNN": {
+            "model_folder": "./../models/",
+            "model_file_name": "100425_srcnn_CE_model.keras"
+        },
+        "ChannelNet": {
+            "model_folder": "./../models/",
+            "model_file_name": "100425_channelnet_CE_model.keras"
+        },
+        "EDSR": {
+            "model_folder": "./../models/",
+            "model_file_name": "100425_EDSR_CE_model.keras"
+        },
+        "AttRNet-Conv": {
+            "model_folder": "./../models/",
+            "model_file_name": "100425_AttRNet_CE_model.keras"
+        },
+        "HELENA": {
+            "model_folder": "./../models/",
+            "model_file_name": "100425_HELENA_CE_model.keras"
+        }
+    },
+    "dataset": {
+        "dataset_folder": "./../../datasets/",
+        "dataset_name": "dataset_channels_SNR_1024.mat"
+    }
+}
