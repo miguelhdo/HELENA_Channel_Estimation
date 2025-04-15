@@ -21,6 +21,7 @@ from helper import (
 parser = argparse.ArgumentParser(description='Run model evaluation script.')
 parser.add_argument('--input_file', required=True, help='Path to the model configuration JSON file')
 parser.add_argument('--num_inferences', type=int, default=100, help='Number of inferences for profiling')
+parser.add_argument('--batch_size', type=int, default=32, help='Batch size to use during prediction (applies only to non-TensorRT models)')
 args = parser.parse_args()
 
 # GPU setup
@@ -60,7 +61,7 @@ for model_name, model_info in models_dict["models"].items():
 
     model = loaded_models[model_name]
     logging.info(f'Performing Inference for (original/non-optimized) model {model_name}')
-    y_pred = model.predict(trainData_test)
+    y_pred = model.predict(trainData_test, batch_size = args.batch_size)
 
     y_true_reshaped = trainLabels_test.reshape(first_dimension, -1)
     y_pred_reshaped = y_pred.reshape(first_dimension, -1)

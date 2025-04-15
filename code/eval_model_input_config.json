@@ -22,7 +22,7 @@
         }
     },
     "dataset": {
-        "dataset_folder": "./../../datasets/",
-        "dataset_name": "dataset_channels_SNR_1024.mat"
+        "dataset_folder": "./../dataset/",
+        "dataset_name": "dataset_HELENA_channel_estimation.mat"
     }
 }
