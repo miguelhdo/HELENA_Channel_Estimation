@@ -45,7 +45,7 @@ For quick reference, the main libraries used are:
 - `tf2onnx==1.16.1`
 - `tqdm==4.67.1`
 
-> ⚠️ **Note**: As long as your system already has **CUDA** and **cuDNN** versions compatible with **TensorRT 8.6.1**, installing the above packages should allow the code to run out of the box.
+> ⚠️ > **Note**: As long as your system has **CUDA** and **cuDNN** versions compatible with **TensorRT 8.6.1**, installing the required packages should allow the code to run out of the box—**provided that your GPU supports TensorRT acceleration and all model layer types are compatible.**
 >
 ### 🚧 Future Updates
 
