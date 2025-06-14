@@ -16,6 +16,7 @@ After cloning the repository, installing the required dependencies, and setting 
 
 - `--input_file`: Path to a JSON file specifying the location of trained Keras model files used for performance comparison.
 - `--num_inferences`: Number of inference runs performed with the TensorRT-optimized models (used for accurate latency measurement).
+- `--prefix_output_files`, type=str, default='output', help='Prefix for output filenames')
 - `--batch_size`: Batch size used for inference with the original (non-optimized) TensorFlow models.
 
 ---
