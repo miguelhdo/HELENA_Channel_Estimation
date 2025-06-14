@@ -23,9 +23,9 @@ After cloning the repository, installing the required dependencies, and setting 
 
 ### 📁 Dataset Information
 
-The dataset can be downloaded from [![DOI](https://zenodo.org/badge/15210986.svg)](https://zenodo.org/badge/latestdoi/15210986)
+The dataset can be downloaded from [![DOI](https://zenodo.org/badge/15210985.svg)](https://zenodo.org/badge/latestdoi/15210985)
 
-The paper describing the dataset can be found here: [![DOI](https://zenodo.org/badge/15665271.svg)](https://zenodo.org/badge/latestdoi/15665271)
+The paper describing the dataset can be found here: [![DOI](https://zenodo.org/badge/15665270.svg)](https://zenodo.org/badge/latestdoi/15665270)
 
 ---
 
