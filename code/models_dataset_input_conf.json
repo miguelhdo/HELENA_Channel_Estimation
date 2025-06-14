@@ -1,0 +1,44 @@
+{
+    "models": {
+        "SRCNN": {
+            "model_folder": "./../models/",
+            "model_file_name": "010625_srcnn_CE_model.keras"
+        },
+        "ChannelNet": {
+            "model_folder": "./../models/",
+            "model_file_name": "010625_channelnet_CE_model.keras"
+        },
+        "EDSR": {
+            "model_folder": "./../models/",
+            "model_file_name": "010625_EDSR_CE_model.keras"
+        },
+        "AttRNet-Conv": {
+            "model_folder": "./../models/",
+            "model_file_name": "010625_AttRNet_CE_model.keras"
+        },
+        "LSiDNN 48": {
+            "model_folder": "./../models/",
+            "model_file_name": "010625_LSiDNN_48_CE_model.keras"
+        },
+        "LSiDNN 1024": {
+            "model_folder": "./../models/",
+            "model_file_name": "010625_LSiDNN_1024_CE_model.keras"
+        },
+        "CE-ViT": {
+            "model_folder": "./../models/",
+            "model_file_name": "010625_CE_ViT_model.keras"
+        },
+        "HELENA MHSA": {
+            "model_folder": "./../models/",
+            "model_file_name": "010625_HELENA_MHSA_only_CE_model.keras"
+        },
+        "HELENA": {
+            "model_folder": "./../models/",
+            "model_file_name": "010625_HELENA_CE_model.keras"
+        }
+    },
+    "dataset": {
+        "dataset_folder": "./../../datasets/",
+        "dataset_name": "290525_dataset_ce.mat"
+    }
+}
