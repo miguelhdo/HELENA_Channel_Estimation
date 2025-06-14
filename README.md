@@ -23,9 +23,7 @@ After cloning the repository, installing the required dependencies, and setting 
 
 ### 📁 Dataset Information
 
-An example dataset containing approximately **5% of the original dataset** (train, validation, and test) is provided for initial code testing and validation purposes.
-
-> **Note:** The full dataset used in the paper will be publicly released in **June 2025**, as the complete test dataset is currently employed in a research assignment with a submission deadline at the end of May 2025.
+The dataset can be downloaded from [Zenodo](https://zenodo.org/records/15210986). The paper describing the dataset can be found here: [Zenodo](https://zenodo.org/records/15665271).
 
 ---
 
