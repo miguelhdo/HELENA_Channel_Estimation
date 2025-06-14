@@ -20,10 +20,6 @@
             "model_folder": "./../models/",
             "model_file_name": "010625_LSiDNN_48_CE_model.keras"
         },
-        "LSiDNN 1024": {
-            "model_folder": "./../models/",
-            "model_file_name": "010625_LSiDNN_1024_CE_model.keras"
-        },
         "CE-ViT": {
             "model_folder": "./../models/",
             "model_file_name": "010625_CE_ViT_model.keras"
