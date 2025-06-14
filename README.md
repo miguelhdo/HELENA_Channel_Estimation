@@ -2,7 +2,7 @@
 
 This repository provides the code and scripts necessary to reproduce the experiments and results from the paper: **“HELENA: High-Efficiency Learning-Based Channel Estimation Using Neural Attention.”**
 
-It includes tools for benchmarking the performance of several deep learning models for channel estimation in terms of Mean Squared Error (MSE), computational complexity (FLOPS), and inference latency, evaluated using both TensorFlow and TensorRT-optimized models.
+It includes tools for benchmarking the performance of several deep learning models for channel estimation in terms of Normalized Mean Squared Error (NMSE), computational complexity (FLOPS), and inference latency, evaluated using both TensorFlow and TensorRT-optimized models.
 
 ---
 
