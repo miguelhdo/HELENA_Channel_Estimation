@@ -10,7 +10,7 @@ It includes tools for benchmarking the performance of several deep learning mode
 
 After cloning the repository, installing the required dependencies, and setting up your environment, run the evaluation script with the following command:
 
-<pre><code>python eval_models.py --input_file eval_model_input_config.json --num_inferences 100 --batch_size 1</code></pre>
+<pre><code>python eval_models.py --input_file models_dataset_input_conf.json --num_inferences 100 --prefix_output_files "V100" --batch_size 1</code></pre>
 
 ### 🔧 Script Arguments
 
