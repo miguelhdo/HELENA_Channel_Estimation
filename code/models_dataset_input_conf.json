@@ -34,7 +34,7 @@
         }
     },
     "dataset": {
-        "dataset_folder": "./../../datasets/",
+        "dataset_folder": "./../datasets/",
         "dataset_name": "290525_dataset_ce.mat"
     }
 }
